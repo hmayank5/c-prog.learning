@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/hmayank/c-prog.learning/output/1'
+relocations:     []
+...
