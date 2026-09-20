@@ -1,4 +1,4 @@
-//2types = if esle ,switch
+//2types = 1.if esle ,2.switch
 
 
 #include <stdio.h>
@@ -26,7 +26,25 @@ int main(){
     //this is the syntax or procedure to write this.this way only u should write so tht instead or if else u can use this 
     
     
-    
+
+
+
+
+    //2.switch
+    int day;
+    printf("enter day(1-4):");  //1-mon,2-tue....
+    scanf("%d",&day);
+    switch(day){
+        case 1 :printf("monday\n");
+                break;
+        case 2 :printf("tuesday\n");
+                break;
+        case 3 :printf("wednesday\n");
+                break;
+        case 4 :printf("thursday\n");
+                break;
+        default : printf("not valid\n");
+    }
     
     
     
