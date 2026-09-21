@@ -31,7 +31,7 @@ int main(){
 
 
     //2.switch
-    int day;
+    int day;    // instea of int u can use char also thn m-mon, t=tue ...can give and cases also m,t,w ...
     printf("enter day(1-4):");  //1-mon,2-tue....
     scanf("%d",&day);
     switch(day){
@@ -41,12 +41,31 @@ int main(){
                 break;
         case 3 :printf("wednesday\n");
                 break;
-        case 4 :printf("thursday\n");
+        case 4 :printf("thursday\n");   //if u dint pur break after evry case prints evrtg .eg if u say 2 from tuesday evrtg prints
                 break;
         default : printf("not valid\n");
     }
     
-    
+
+
+
+
+    //nested if else eg
+    int number;
+    printf("enter number");
+    scanf("%d",&number);
+    if(number>=0){
+        printf("positive\n");
+        if (number%2==0){
+            printf("even\n");
+        } else{
+            printf("odd\n");
+        }
+    }else{
+        printf("negative\n");  //can add nested if here also
+    }
+
+    //eg ques- marks based grades ,error finding,upper case lower case finding done
     
     
     
