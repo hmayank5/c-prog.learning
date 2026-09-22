@@ -53,6 +53,18 @@ printf("%d\n",i);
 
 
 
+//while loop
+/*
+int j=1;
+while (j<=5){
+    printf("hello world\n");
+    i++;
+}
+    gives u ot but while doing evaga dint get in othe file got ot*/
+
+
+
+
 
     return 0;
 }

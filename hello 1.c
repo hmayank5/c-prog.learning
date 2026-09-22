@@ -45,7 +45,13 @@ int ages;
 printf("enter age:");
 scanf("%d", &ages);                       
 // scanf is used to take input from the user.and & is used to get the address of the variable where the input value will be stored.
-printf("Age: %d\n", ages);   
+printf("Age: %d\n", ages);  
+
+
+
+
+
+
     return 0;
 }   
 
